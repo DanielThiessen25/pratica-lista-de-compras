@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import InsertForm from "./InsertForm";
+import axios from 'axios';
 
 export default function ShoppingList() {
   // Fake data
